@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 489px;
+    height: 473px;
+    background: #ffffffff;
+    border-radius: 5%;
+    box-shadow: -30px 20px 100px 10px #FB184E78, 30px -20px 100px 10px #0057FF78;
+}
+
+.card {
+    text-align: center;
+    width: 311px;
+    height:417px;
+    background:#ffffffff;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.card h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-shadow: none;
+    background:none;
+    color: #2B2B2B;
+}
+.card input{
+    width: 290px;
+    height:50px;
+    font-size: 24px;
+    border-radius: 2px;
+    margin-left: 9px;
+    padding-left: 20px;
+    font-weight: 700;
+    color: #2B2B2B;
+    
+}
+.btn{
+   display:inline-flex;
+   flex-direction: row;
+   justify-content:space-evenly;
+   background: none;
+}
+.card .btn button{
+    width: 61px;
+    height: 61px;
+    background:#2B2B2B;
+    color: #ffffff;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.result{
+    background: none;
+}
+.container.card #sec{
+    color: green;
+}
